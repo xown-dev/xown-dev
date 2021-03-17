@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+<p>Directory access is forbidden.</p>
+
+<section style="height: 100vh;" id="ff">
+	<div id="application-form">
+		<hr>
+		<div class="row">
+			<div class="col-sm-12 col-md-8 col-md-offset-2">
+				<h3 class="text-center" style="margin-bottom: 15px;">Book A Slot</h3>
+				<div class="alert alert-success hidden" id="suc_msg"></div>
+				<div class="alert alert-danger hidden" id="err_msg"></div>
+				<br>
+				<form action="http://localhost/lead_magnet/consultancy-registration" method="post" id="consultancy-applicant">
+					<div class="row">
+						<!-- First Name -->
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="applicant-name" style="font-weight: bold;">First Name</label>
+								<input id="applicant-first-name" name="applicant-first-name" type="text" class="form-control" required="true" placeholder="Enter your first name">
+							</div>
+						</div>
+
+						<!-- Last Name -->
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="applicant-name" style="font-weight: bold;">Last Name</label>
+								<input id="applicant-last-name" name="applicant-last-name" type="text" class="form-control" required="true" placeholder="Enter your full name">
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<!-- Email Address -->
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="applicant-email" style="font-weight: bold;">Email</label>
+								<input id="applicant-email" name="applicant-email" type="email" class="form-control" required="true" placeholder="Enter your email address" />
+							</div>
+						</div>
+
+						<!-- Phone Number -->
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="applicant-phone" style="font-weight: bold;">Phone Number</label>
+								<input id="applicant-phone" name="applicant-phone" type="text" class="form-control" required="true" placeholder="Enter your phone number" />
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<!-- Company Name -->
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="company-name" style="font-weight: bold;">Company Name</label>
+								<input id="company-name" name="company-name" type="text" class="form-control" required="true" placeholder="Enter your company name" />
+							</div>
+						</div>
+
+						<!-- Website Address -->
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="website" style="font-weight: bold;">Website</label>
+								<input id="website" name="website" type="text" class="form-control" required="true" placeholder="Enter your website address" />
+							</div>
+						</div>
+					</div>
+					<input type="hidden" name="register-applicant" value="register-applicant">
+					<button class="button" type="submit"><i class="fa fa-lock"></i> Submit</button>
+					<!-- <button type="submit" name="submit-application" value="submit-application" class="btn-comment">Submit</button> -->
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+</body>
+</html>

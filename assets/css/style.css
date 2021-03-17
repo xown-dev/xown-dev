@@ -1,0 +1,517 @@
+
+html {
+	scroll-behavior: smooth;
+}
+
+body
+{
+	color: #fff;
+}
+
+section
+{
+	padding: 64px 0;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.lead-header
+{
+	padding: 32px 0;
+}
+
+.lead-header .row
+{
+	display: flex;
+	justify-content: center;
+}
+
+.lead-header img
+{
+	width: 250px;
+}
+
+.ld-magnet-bg
+{
+	/* height: 100vh; */
+	display: flex;
+	background-image: url('https://xownsolutions.com/digital_business_transformation_free_consultation/');
+	background-size: contain;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 32px;
+}
+
+.title-text 
+{
+	font-family: 'Futura Md BT';
+	font-size: 28px;
+	margin-bottom: 16px;
+}
+
+.sub-text 
+{
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 16px;
+}
+
+.tsoybdnm
+{
+	font-family: 'Raleway', 'Corbel', sans-serif;
+	color: #a9abae;
+	margin-bottom: 16px;
+	font-size: 16px;
+}
+
+
+/* Increase Revenue and Profit */
+.title-text > .isrvpf
+{
+	color: #e77a1a;
+}
+
+.img-col, .text-parent-col
+{
+	width: fit-content;
+}
+
+.img-col > img
+{
+	width: 450px;
+	height: auto;
+}
+
+.col-wrap
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a.bbtn 
+{
+	display: inline-block;
+	background-color: #e77a1a;
+	color: #ffffff;
+	padding: 12px 18px;
+	font-size: 16px;
+	border-radius: 16px;
+}
+
+#bk-action-btn
+{
+	color: #fff;
+	font-size: 18px !important;
+}
+
+.bbtn:hover
+{
+	color: #ffffff;
+}
+
+.bbtn:focus
+{
+	color: #ffffff;
+}
+
+/* Book a free digital */
+.bkfrcndg
+{
+	color: #a4a4a4;
+	font-size: 24px;
+}
+
+.ttext3, .ttext1 
+{
+	color: #494949;
+}
+
+.time-selection-grid
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.custom-radio
+{
+	padding: 12px;
+	background: #fff;
+}
+
+.ms-RadioButton-field:before
+{
+	display: none;
+}
+
+/* Various state of the radio field */
+.ms-RadioButton-field.is-checked.in-focus:before, .ms-RadioButton-field.is-checked:focus:before, .ms-RadioButton-field.is-checked:hover:before
+{
+
+}
+
+.ms-RadioButton-field:not(.is-disabled):hover
+{
+	border: 1.5px solid #e77a1a;
+}
+
+.ms-RadioButton-field.is-checked
+{
+	border: 1.5px solid #e77a1a;
+}
+
+.ms-RadioButton-field
+{
+	transition: border 0.2s;
+}
+
+.form-control:focus
+{
+	color: #494949;
+	border-color: #e77a1a;
+}
+
+.submit-wrapper
+{
+	display: flex;
+	justify-content: center;
+}
+
+#date_picker_element
+{
+	height: 48px !important;
+	background-color: var(--section-1-bg-color);
+	padding: 10px 15px !important;
+	border-color: var(--primary-l-color);
+	border-radius: 2px !important;
+	line-height: 1.2 !important;
+	font-family: "Poppins", sans-serif !important;		
+}
+
+.e-input-group-icon, .e-clear-icon
+{
+	width: 50px;
+}
+
+.e-input-group-icon:focus
+{
+	border-left: 1px solid #e77a1a !important;
+}
+
+.e-input-group-icon:hover, .e-clear-icon:hover
+{
+	background-color: #ffffff !important;
+}
+
+.slot_selection
+{
+	display: none;
+}
+
+.slot_selection_show
+{
+	display: block !important;
+	animation-name: smoothtransition;
+	animation-delay: -0.2s;
+	animation-duration: 0.5s;
+}
+
+label.error
+{
+	font-size: small;
+	color: crimson;
+}
+
+div.error-message-visibility
+{
+	/* display: block; */
+}
+
+.ms-MessageBar-text
+{
+	color: #333;
+}
+
+.spinner-btn-wrapper > button {
+	min-width: 110px;
+}
+
+.btn-text-hide
+{
+	display: none;
+}
+
+/* Spinenr */
+.lds-ellipsis {
+	display : none;
+	position: relative;
+	width   : 40px;
+	height  : 25px;
+}
+
+.lds-ellipsis div {
+	position                 : absolute;
+	top                      : 16.5px;
+	width                    : 5px;
+	height                   : 5px;
+	border-radius            : 50%;
+	background               : #fff;
+	animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+	left     : 4px;
+	animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+	left     : 4px;
+	animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+	left     : 16px;
+	animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+	left     : 28px;
+	animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes lds-ellipsis3 {
+	0% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0);
+	}
+}
+
+@keyframes lds-ellipsis2 {
+	0% {
+		transform: translate(0, 0);
+	}
+
+	100% {
+		transform: translate(12px, 0);
+	}
+}
+
+.roller-active {
+	display: inline-block;
+}
+
+.ms-MessageBar
+{
+	display: none;
+}
+
+/* Footer Styles */
+
+footer
+{
+	color: #6f6f6f;
+	background: #ececec;
+	padding: 64px 0;
+}
+
+footer ul li, footer ul li a
+{
+	color: #6f6f6f;
+}
+
+footer ul li a
+{
+	padding: 0.8rem;
+	border-radius: 50%;
+	background: #e77a1a;
+	transition: all ease-in-out 0.2s;
+}
+
+footer ul li a:hover
+{
+	/* background: transparent; */
+	border: 1px solid #e0e0e0;
+}
+
+footer ul
+{
+	display: inline-block;
+}
+
+footer ul li
+{
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.footer-grid
+{
+	display: flex;
+}
+
+.footer-logo > img
+{
+	width: 200px;
+}
+
+.footer-logo > p
+{
+	margin-top: 10px;
+}
+
+.ft-social-md-grid
+{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+/* Media Queries */
+
+/* Mobiles */
+@media (max-width: 600px) {
+
+	/* Time selection grid */
+	.time-selection-grid
+	{
+		flex-direction: column;
+	}
+	
+	.ld-magnet-bg
+	{
+		background-size: cover;
+	}
+
+	/* Shrink Image Size */
+	.img-col > img
+	{
+		width: 250px;
+	}
+
+	.title-text, .title-text > .text1
+	{
+		font-size: small;
+		/* max-width: 150px; */
+	}
+
+	.min-tit
+	{
+		font-size: 2.5rem;
+	}
+
+	.title-text span
+	{
+		/* max-width: 150px; */
+	}
+
+	.sub-text span
+	{
+		/* max-width: 150px; */
+	}
+
+	.sub-text
+	{
+		/* max-width: 150px; */
+	}
+
+	.sub-text .bkfrcndg
+	{
+		font-size: small;
+	}
+
+	.tsoybdnm
+	{
+		font-size: smaller;
+		/* width: 150px; */
+	}
+
+	.bbtn
+	{
+		font-size: 14px;
+		padding: 8px 12px;
+	}
+
+	.bbtn > strong
+	{
+		font-size: 18px;
+	}
+
+	.col-wrap
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.text-parent-col, .btn-parent-col
+	{
+		text-align: center;
+	}
+
+	.img-col
+	{
+		margin-bottom: 32px;
+	}
+
+	.submit-wrapper
+	{
+		display: flex;
+		justify-content: center;
+	}
+
+	/* Footer */
+	.footer-grid
+	{
+		justify-content: flex-start;
+	}
+
+	.footer-grid .footer-logo
+	{
+		margin-bottom: 15px;
+	}
+
+	.ft-social-md-grid
+	{
+		justify-content: flex-start;
+	}
+
+	footer ul li:first-child
+	{
+		margin-left: 0;
+	}
+
+	footer ul
+	{
+		padding-left: 0;
+	}
+}
+
+/* Animations */
+@keyframes smoothtransition {
+	from {
+		left: -1000px;
+		opacity: 0;
+	}
+  	to {
+		  left: 0;
+		  opacity: 1;
+	}
+}
